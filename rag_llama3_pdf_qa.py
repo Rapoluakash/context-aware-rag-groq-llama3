@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 os.environ["GROQ_API_KEY"] = "your_groq_api_key_here"
 
 # Load PDF
-pdf_path = "your_pdf_file.pdf"
+pdf_path = r"C:\Users\rapol\Downloads\DATA SCIENCE\6. FEB 25\31st - RAG Models\python_inbuildfunction.pdf"
 loader = PyPDFLoader(pdf_path)
 documents = loader.load()
 
