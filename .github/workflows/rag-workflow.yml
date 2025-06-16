@@ -26,6 +26,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run test
+      - name: Run pipeline
         run: |
-          python your_script.py  # Replace with your test or main script
+          python RAG_with_Groq_and_LLaMA3.py
+
