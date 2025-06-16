@@ -1,6 +1,7 @@
 langchain
 langchain-community
 langchain-groq
-pypdf
 faiss-cpu
-transformers
+pypdf
+sentence-transformers
+langchain-huggingface
