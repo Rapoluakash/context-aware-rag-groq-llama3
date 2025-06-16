@@ -1,6 +1,6 @@
 langchain
 langchain-community
 langchain-groq
+pypdf
 faiss-cpu
 transformers
-torch
